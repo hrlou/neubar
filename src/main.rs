@@ -4,13 +4,13 @@ use gtk::{glib, Application, ApplicationWindow, Button};
 
 fn main() -> glib::ExitCode {
     let application = Application::builder()
-        .application_id("com.example.FirstGtkApp")
+        .application_id("net.hrlou.neubar")
         .build();
 
     application.connect_activate(|app| {
         let window = ApplicationWindow::builder()
             .application(app)
-            .title("First GTK Program")
+            .title("neubar")
             .default_width(350)
             .default_height(70)
             .build();

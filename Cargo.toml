@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 gtk4 = "0.7.3"
+symphonia = "0.5.3"
