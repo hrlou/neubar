@@ -1,3 +1,4 @@
 /target
 /profile/tracks/*
+!/profile/tracks/.keep
 Cargo.lock
